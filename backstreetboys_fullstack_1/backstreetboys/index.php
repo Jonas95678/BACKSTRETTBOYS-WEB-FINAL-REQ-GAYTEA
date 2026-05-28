@@ -163,11 +163,14 @@ $siteTagline  = getSetting('site_tagline',  '');
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav ms-auto align-items-center">
         <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#members">Members</a></li>
         <li class="nav-item"><a class="nav-link" href="#tophits">Top Hits</a></li>
         <li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+        <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+          <a href="dashboard/login.php" class="btn btn-gold btn-sm px-4 py-2">Login</a>
+        </li>
       </ul>
     </div>
   </div>
